@@ -9,6 +9,7 @@
 int main(void)
 {
 	int n;
+	int modules;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
