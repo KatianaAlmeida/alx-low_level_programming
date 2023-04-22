@@ -9,9 +9,9 @@
 int main(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-        int  index;
- 
-	for (index =0; index < 26; index++)
+	int  index;
+
+	for (index = 0; index < 26; index++)
 	{
 		putchar(alphabet[index]);
 	}
