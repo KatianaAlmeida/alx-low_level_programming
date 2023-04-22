@@ -13,11 +13,11 @@ int main(void)
         int index1;
 	int index2;
 
-	for (index1 = 0; index1 < alphabetInLowercase; index1++)
+	for (index1 = 0; index1 < 26; index1++)
 	{
 		putchar(alphabetInLowercase[index1]);
 	}
-	for (index2 = 0; index2 < alphabetInUppercase; index2++)
+	for (index2 = 0; index2 < 26; index2++)
 	{
 		putchar(alphabetInUppercase[index2]);
 	}
