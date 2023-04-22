@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	char  alphabetInLowercase[26] = 'abcdefghijklmnopqrstuvwxyz';
-	char  alphabetInUppercase [26] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	char  alphabetInLowercase[26] = "abcdefghijklmnopqrstuvwxyz";
+	char  alphabetInUppercase [26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         int index1;
 	int index2;
 
