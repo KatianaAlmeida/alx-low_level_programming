@@ -9,7 +9,8 @@
 int main(void)
 {
 	int index;
-	for (index =0; index <10; index++)
+
+	for (index = 0; index < 10; index++)
 	{
 		printf("%d", index);
 	}
