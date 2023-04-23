@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Patience, persistence and perspiration make an 
+ * main - Patience, persistence and perspiration make an
  * unbeatable combination for success
  *
  * Return: Always 0 (Sucess)
