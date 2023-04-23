@@ -10,14 +10,14 @@ int main(void)
 {
 	int baseSixteen;
 
-	for (baseSixteen=48; baseSixteen<58; baseSixteen++)
+	for (baseSixteen = 48; baseSixteen < 58; baseSixteen++)
 	{
 		putchar(baseSixteen);
 	}
-	for (baseSixteen=97; baseSixteen<103; baseSixteen++)
+	for (baseSixteen = 97; baseSixteen < 103;  baseSixteen++)
 	{
 		putchar(baseSixteen);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
