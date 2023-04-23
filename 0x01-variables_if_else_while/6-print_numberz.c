@@ -9,10 +9,11 @@
 int main(void)
 {
 	int index;
-	for (index =48; index <58; index++)
+
+	for (index = 48; index < 58; index++)
 	{
 		putchar(index);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
