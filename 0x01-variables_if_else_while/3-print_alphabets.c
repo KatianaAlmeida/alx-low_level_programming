@@ -9,8 +9,8 @@
 int main(void)
 {
 	char  alphabetInLowercase[26] = "abcdefghijklmnopqrstuvwxyz";
-	char  alphabetInUppercase [26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int index1;
+	char  alphabetInUppercase[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int index1;
 	int index2;
 
 	for (index1 = 0; index1 < 26; index1++)
