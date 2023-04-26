@@ -25,7 +25,7 @@ void print_to_98(int number)
 			if (y != 98)
 				printf("%d, ", y);
 			else if (y == 98)
-				printf("%d\n, ", x);
+				printf("%d\n, ", y);
 		}
 	}
 }
