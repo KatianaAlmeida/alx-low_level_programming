@@ -3,14 +3,14 @@
 /**
  * reset_to_98 - takes a pointer to an int as parameter and
  * updates the value it points to to 98.
- * @c: The character to print
+ * @n: The variable that hold the input
  *
- * Return: On success 1.
+ * Return: On success n.
  */
 
 void reset_to_98(int *n)
 {
-	int *point = &n;
+	int *point = *n;
 
 	*point = 98;
 }
