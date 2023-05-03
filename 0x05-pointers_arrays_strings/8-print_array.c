@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 	{
 		if (index+1 == n)
 		{
-			printf("%d", a[index]);
+			printf("%d", a[index+1]);
 		}
 		else
 		{
