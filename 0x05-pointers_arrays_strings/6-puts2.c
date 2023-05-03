@@ -9,8 +9,9 @@ void puts2(char *str)
 {
 	int length;
 	int index;
+	int *x = str;
 
-	for (length = 0; *str != '\0'; length++)
+	for (length = 0; *x != '\0'; length++)
 	{
 		str++;
 	}
