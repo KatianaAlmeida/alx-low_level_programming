@@ -29,12 +29,12 @@ char *str_concat(char *s1, char *s2)
 		
 	for (index1= 0; s1[index1] != '\0'; index1++)
 	{
-		conct[index1] = s1[index1];
+		concatenate[index1] = s1[index1];
 	}
 
 	for (index2 = 0; s2[ci] != '\0'; index2++)
 	{
-		conct[index1] = s2[index2];
+		concatenate[index1] = s2[index2];
 		index1++;
 	}
 	concatenate[index1] = '\0';
