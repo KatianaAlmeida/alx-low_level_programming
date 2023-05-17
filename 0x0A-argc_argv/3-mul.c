@@ -12,11 +12,9 @@
 int main(int argc, char *argv[])
 {
 	int multiplication;
-
-	if (argc > 1)
-	{
-	    multiplication = atoi(argv[1])  * atoi(argv[2]);
-	    printf("%d\n",multiplication);
-	}
+	
+	multiplication = atoi(argv[1])  * atoi(argv[2]);
+	printf("%d\n", multiplication);
+	
 	return (0);
 }
