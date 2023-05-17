@@ -12,9 +12,13 @@
 int main(int argc, char *argv[])
 {
 	int multiplication;
-	
-	multiplication = atoi(argv[1])  * atoi(argv[2]);
-	printf("%d\n", multiplication);
-	
+
+	if (argc[1] == NULL && argc[2] == NULL)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	multiplication = atoi (argv[1]) * atoi(argv[2]);
+	printf ("%d\n",  multiplication);
 	return (0);
 }
