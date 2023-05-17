@@ -24,7 +24,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	for (index2 = 0; str[index2]; index2++)
-		aaa[index2] = str[index2];
+		pointer[index2] = str[index2];
 
 	return (pointer);
 }
