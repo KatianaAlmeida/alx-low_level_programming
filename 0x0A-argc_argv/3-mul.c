@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int multiplication;
 
-	if (argc[1] == NULL && argc[2] == NULL)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
