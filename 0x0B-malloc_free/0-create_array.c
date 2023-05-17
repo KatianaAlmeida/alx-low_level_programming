@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * create_array -  creates an array of chars, and initializes it with a specific char
+ * cireate_array -  creates an array of chars,
+ * and initializes it with a specific char
  * @size: size of array
  * @c: value to assign
  * Description: create array of size size and assign char c
@@ -21,6 +22,6 @@ char *create_array(unsigned int size, char c)
 
 	for (i = 0; i < size; i++)
 		pointer[i] = c;
-		
+
 	return (pointer);
 }
