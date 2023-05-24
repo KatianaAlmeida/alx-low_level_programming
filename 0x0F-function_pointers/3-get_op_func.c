@@ -23,7 +23,7 @@ int (*get_op_func(char *s))(int, int)
 
 	int index = 0;
 
-	while (array[index].op != NULL && *(array[index].op) != *s)
+	while (array[index].pointer != NULL && *(array[index].pointer) != *s)
 		index++;
 
 	return (array[index].f);
