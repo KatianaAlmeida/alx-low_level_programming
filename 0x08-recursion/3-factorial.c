@@ -3,7 +3,7 @@
 /**
  * factorial - calculates the factorial of a given number.
  * @n: string
- * Retrun: factorial of s
+ * Return: factorial of s
  */
 
 int factorial(int n)
