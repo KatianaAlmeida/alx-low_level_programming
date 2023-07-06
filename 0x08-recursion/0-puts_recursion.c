@@ -1,22 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _print_rev_recursion - prints a string in reverse.
- * return: nothing
- * */
+ * _puts_recursion - prints a string, followed by a new line.
+ * @s: the string to be printed
+ * Return: nothing
+ */
 
-void _print_rev_recursion(char *s)
+void _puts_recursion(char *s)
 {
-	int count;
-	
-	for(count = 0; s[count] != '\0';)
+	if (*s == '\0')
 	{
-		count++;
+		_putchar('\n');
 	}
-	
-	for(int index =  count-1; s[index] != '\0'; index--)
+	else
 	{
-		printf("%c", s[index]);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
 }
